@@ -1,18 +1,45 @@
-*{
-    background-color: bisque;
+* {
+  background-color: bisque;
 }
-nav>img{
-    width:35px
+nav > img {
+  width: 35px;
 }
-nav a{
-    text-decoration: none;
-    color: black;
+nav a {
+  text-decoration: none;
+  color: black;
 }
-.card{
-    display: flex;
-    width: 50vw;
-    
+.card {
+  display: flex;
+  width: 50vw;
 }
-.input{
-    width: 80%;
+.input {
+  width: 80%;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  background-color: #502314;
+  width: 100vw;
+}
+footer div{
+    background-color: #502314;
+}
+footer h2, footer h3, footer h5, footer span{
+    color: aliceblue;
+    background-color: transparent;
+}
+footer h3{
+    margin-bottom: 2rem;
+}
+footer div a img{
+    margin: 0 .5rem;
+    width: 2rem;
+    background-color: transparent;
+}
+footer div a{
+    background-color: transparent;
+}
+footer div span{
+    align-self: center;
 }
