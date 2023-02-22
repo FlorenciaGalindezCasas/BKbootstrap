@@ -166,3 +166,31 @@ footer div a{
 footer div span{
     align-self: center;
 }
+
+#carouselExampleIndicators{
+    height: 750px;
+    width: 100%;
+}
+/* carrousel */
+.bg-1 {
+    background: url("../image/Banner-novedades-Arg_930x620_invitate.jpeg");
+    background-size: 100vw 85vh;
+    width:4 100vw;
+    height: 750px;
+  }
+  
+  .bg-2 {
+    background: url("../image/Banner-novedades-Arg_930x620_kingjr.jpeg");
+    background-size:100vw 80vh;
+    width: 100vw;
+    height: 750px;
+    object-fit: cover;
+  }
+  
+  .bg-3{
+      background: url("../image/Banner-novedades-Arg_930x620_MM.jpeg");
+    background-size:100vw 80vh;
+    width: 100vw;
+    height: 750px;
+    object-fit: cover;
+  }
