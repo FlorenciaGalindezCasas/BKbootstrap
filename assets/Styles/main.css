@@ -1,6 +1,14 @@
 *{
-    background-color: bisque;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
+
+body{
+    background-color: #f5ebdc;
+    font-family: FlameSans-Regular;
+}
+
 nav>img{
     width:35px
 }
@@ -15,4 +23,59 @@ nav a{
 }
 .input{
     width: 80%;
+}
+
+
+
+#nov h2{
+    color: #502314;
+}
+
+#nov a{
+    text-decoration: none;
+    font-family: FlameSans;
+    color:#d72300;
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+#novedades{
+    width: 90%;
+}
+
+
+#novedades img{
+    border-radius: 5%;    
+}
+
+.card-title{
+    padding-top: 10%;    
+    font-size: 28px;
+    color: #502314;
+}
+
+.card-text{
+    padding-bottom: 3%;
+    font-family: FlameSans;
+    font-size: 15px;
+    text-align: justify;
+    color: rgba(80, 35, 20, 0.8);
+}
+
+
+
+@font-face {
+    font-family: FlameSans-Regular;
+    src: url(../fonts/FlameRegular.otf);
+}
+
+@font-face {
+    font-family: FlameSans;
+    src: url(../fonts/FlameSans.otf);
 }
