@@ -149,7 +149,7 @@ footer div{
     background-color: transparent;
 }
 .footerLink{
-    display: inline-block;
+    display: block;
     font-weight: lighter;
 }
 footer h3{
