@@ -1,3 +1,12 @@
+@font-face {
+    font-family: FlameSans-Regular;
+    src: url(../fonts/FlameRegular.otf);
+}
+
+@font-face {
+    font-family: FlameSans;
+    src: url(../fonts/FlameSans.otf);
+}
 *{
     box-sizing: border-box;
     padding: 0;
@@ -15,11 +24,11 @@ nav>img{
     
 nav a {
   text-decoration: none;
-  color: black;
+  color: #502314;
 }
 .card {
   display: flex;
-  width: 50vw;
+  width: 70vw;
   height: 200px;
 }
 
@@ -37,11 +46,19 @@ nav a {
     color:#d72300;
 }
 
-.container{
+.localesCard{
+    margin: 0 auto;
+    color: #502314;
+    background-color:#efe0cc;
+    width: 76vw;
+    height: 35vh;
+}
+
+/* .container{
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
+} */
 
 #novedades{
     width: 90%;
@@ -68,19 +85,10 @@ nav a {
 
 
 
-@font-face {
-    font-family: FlameSans-Regular;
-    src: url(../fonts/FlameRegular.otf);
-}
 
-@font-face {
-    font-family: FlameSans;
-    src: url(../fonts/FlameSans.otf);
-}
 .container{
     background-color: transparent;
-    height: 200px;
-    width: 750px;
+    width: 80%;
 }
 .btn-ubication{
     background-color: transparent;
@@ -106,9 +114,14 @@ footer {
 footer div{
     background-color: #502314;
 }
-footer h2, footer h3, footer h5, footer span{
+.footerLink, footer h3, footer span{
+    text-decoration: none;
     color: aliceblue;
     background-color: transparent;
+}
+.footerLink{
+    display: inline-block;
+    font-weight: lighter;
 }
 footer h3{
     margin-bottom: 2rem;
